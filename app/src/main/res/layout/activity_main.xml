@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="view"
+            type="com.xiaohong.treelist.MainActivity" />
+
+        <variable
+            name="adapter"
+            type="com.xiaohong.treelist.adapter.ExpandTreeListAdapter" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.xiaohong.treelist.MainActivity">
+
+        <ListView
+            android:id="@+id/lv_main_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:adapter="@{adapter}" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
