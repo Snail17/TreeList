@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
-import com.xiaohong.treelist.BR;
 import com.xiaohong.treelist.adapter.ExpandTreeListAdapter;
 import com.xiaohong.treelist.bean.FileBean;
 import com.xiaohong.treelist.databinding.ActivityMainBinding;
@@ -34,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new FileBean("01", "1", "周", "2"));
         list.add(new FileBean("02", "1", "王", "2"));
         list.add(new FileBean("03", "1", "理", "2"));
+        list.add(new FileBean("04", "1", "理2", "2"));
         list.add(new FileBean("2", "0", "名字", "1"));
         list.add(new FileBean("04", "2", "分类", "2"));
         list.add(new FileBean("001", "04", "hahahah", "3"));
